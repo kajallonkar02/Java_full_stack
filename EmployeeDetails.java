@@ -20,6 +20,8 @@ public class EmployeeDetails{
             inputsalary=sc.nextDouble(); sc.nextLine();
             inputcompany=sc.nextLine();
             inputexp = sc.nextDouble(); sc.nextLine();
+
+            System.out.println("Kajal Lonkar ...");
             if(i==0){ 
                         emp1 = new Employee(inputname, inputid, inputsalary, inputcompany, inputexp);
                      double final_salary = emp1.increament(45000);
